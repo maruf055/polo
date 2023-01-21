@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.main{
+    width: 200vh;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 30vh;
+   
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(49, 236, 12);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    
+}
+ 
+.nav-bar ul{
+    display: flex;
+    margin-left: 70vh;
+    margin-top: 30px;
+ 
+}
+.nav-bar ul li a{
+  color: #000;
+  font-size: 17px;
+  padding: 14px;
+}
+.nav-bar ul li a:hover {
+  color: blue;
+}
+.about{
+    margin-left: 240px;
+    margin-top: 200px;
+    
+}
+.about h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.about h2{
+    font-size: 40px;
+    color: rgb(38, 37, 37);
+    border-bottom: 4px solid black; 
+    
+}
+.about p{
+   font-size: 20px;
+   margin-top: 20px;
+   color: rgb(125, 124, 124);
+}
+.btn{
+   margin-top: 20px;
+   background-color: rgb(218, 30, 30);
+   color: aliceblue;
+   padding: 7px;
+   width: 170px;
+   border: none;
+   border-radius: 10px;
+   font-size: 17px;
+}
+.btn:hover{
+   background-color: blue;
+   cursor: pointer;
+}
+.btn2:hover{
+   background-color: blue;
+}
+.model img{
+    float: right;
+    width: 400px;
+    height: 77vh;
+    margin-top: 70px;
+}
+.description{
+    display: flex;
+}
+.section2{
+    width: 200vh;
+    height: 60vh;
+    display: inline;
+}
+.main-conteiner{
+    display: flex;
+    margin-left: 100px;
+}
+.main2{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    top: 70px;
+    
+    margin-left: 30px;
+   
+}
+.purches{
+    font-size: 20px;
+    margin-left: 500px;
+    
+}
+.img1 img{
+    width: 250px;
+    height: 300px;
+   
+}
+#love{
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    right: 200px;
+    padding: 4px;
+    border-radius: 40px;
+    border: 1px solid black;
+    background-color: rgb(215, 217, 218);
+    visibility: hidden;
+    opacity: 0;
+}
+img:hover.love{
+    visibility: visible;
+    opacity: 1;
+}
+.img2:hover #love {
+    visibility: visible;
+    opacity: 1;
+}
+.img2:hover #love:hover{
+    color: blue;
+    border-color: red;
+}
+.btn2{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: rgb(6, 217, 193);
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 40px;
+   
+}
+.text-area img{
+    width: 100px;
+    height: 70px;
+    margin-top: -14px;
+}
+
+.review{
+   float: right;
+   margin-top: -80px;
+}
+.review h3{
+   margin-left: 70px;
+   color: rgb(65, 63, 63);
+}
+.review p{
+    margin-top: 10px;
+    color: rgb(83, 77, 77);
+}
+.img2 img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.img2 img:hover{
+    opacity: 1;
+}
+.text-area p{
+    color: rgb(83, 77, 77);
+}
+.text-area h3{
+    color: rgb(65, 63, 63);
+    margin-top:5px;
+}
+.section3{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+}
+.all-inone{
+    display: flex;
+    margin-left: 100px;
+}
+.section4{
+    width: 200vh;
+    height: 50vh;
+    background-color: white;
+    background:url(img/images.jpg);
+    background-size:200vh 300px;
+    background-repeat: no-repeat;
+    
+}
+
+.lonching-time{
+    display: flex;
+    margin-left: 70vh;
+    padding-top: 50px;
+}
+.lonching-time div{
+    flex-basis: 100px ;
+    font-size: 30px;
+    color: rgb(60, 11, 222);
+}
+span{
+    color: rgb(81, 80, 80);
+}
+.sell{
+    margin-left: 70vh;
+    padding-top: 60px;
+    font-size: 50px;
+}
+.section5{
+    width: 200vh;
+    height: 90vh;
+    background-color: white;
+}
+.browser{
+    text-align: center;
+}
+.browser p{
+    font-size: 30px;
+    color: rgb(173, 167, 167);
+    margin-top: 70px;
+  
+}
+.main-product{
+    display: flex;
+    margin-left: 100px;
+}
+.product{
+    width: 250px;
+    height: 350px;
+    background-color: blue;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+   
+}
+.product img{
+    width: 250px;
+    height: 350px;
+    
+    position: relative;
+}
+.women{
+
+   position: absolute;
+   margin-top: -80px;
+   background-color: rgba(255,255,255,0.9);
+   width: 250px;
+   height: 60px;
+}
+.women h3{
+    margin-left: 100px;
+}
+.women a{
+    margin-left: 90px;
+    color: blue;
+}
+.section6{
+    width: 100%;
+    height: 40vh;
+    background-color: #F7F9FB !important;
+
+}
+.order-now{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+.order{
+    margin-left: 100px;
+    margin-top: 40px;
+    position: relative;
+}
+.order p{
+    color: rgb(136, 135, 135);
+    margin-top: 10px;
+    
+}
+#gift{
+    color:;
+    margin-left: -60px;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 40px;
+}
+.section7{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    position: relative;
+    display: flex;
+}
+.top{
+    color: #000;
+}
+.bold img{
+    width: 60px;
+    height: 100px;
+}
+del{
+    text-decoration-line: line-through;
+    margin-top: 10px;
+
+}
+.discount{
+    margin-left: 10px;
+     
+}
+
+#holud{
+    color: gold;
+}
+ 
+.man{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+     
+}
+.all-man{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.all-customar-review{
+    display: flex;
+    margin-left: 100px;
+     
+}
+.top{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.section8{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: #f8f9fa;
+}
+.nav-puter{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.lost-nav{
+    padding: 40px;
+}
+.lost-nav p{
+    margin-bottom: 20px;
+}
+.lost-nav ul li{
+   padding: 10px;
+}
+.lost-nav a{
+    color: #000;
+}
+.lost-nav a:hover{
+    color: blue;
+}
+.futer{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.futer p{
+    margin-top: 30px;
+    color: #7d7e80;
+}
+ 
+.now{
+    margin-top: 50px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    width: 170px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+ }
+ .now:hover{
+    background-color: rgb(218, 30, 30);
+    
+    cursor: pointer;
+ }
+.copy-right{
+    width: 100%;
+    height: 20vh;
+    background-color: #eff1f4;
+}
+.copy-right p{
+    text-align: center;
+    padding-top: 10vh;
+    color: #68696a;
+}
+@media screen and (max-width:576px) {
+    header{
+        width: 220vh;
+    }
+    .nav-bar ul li a{
+        font-size: 25px;
+    }
+    .main{
+        width: 200vh;
+        height: 260vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .description{
+        position: relative;
+    }
+    .model img{
+        position: absolute;
+        width: 500px;
+        height:  100vh;
+        margin-top: 900px;
+        margin-left: -800px;
+    }
+    .about h1{
+        font-size: 12px;
+       
+    }
+    .about h2{
+        font-size: 80px; 
+        margin-top: 40px;
+    }
+    .about p{
+       font-size: 40px;
+       margin-top: 40px;
+    }
+    .about h1{
+        font-size: 100px;
+    }
+    .btn{
+        margin-top: 70px;
+        padding: 20px;
+        width: 300px;
+        font-size: 30px;
+    }
+    .section2{
+       
+        width: 220vh;
+        height: 1090vh;
+        display: flex;
+    }
+    .purches{
+        font-size: 40px;
+    }
+    .main-conteiner{
+        display: inline;
+        margin-left: -55px;
+    }
+   
+    .main2{
+        position: relative;
+        width: 160vh;
+        height: 270vh;
+        background-color: rgb(255, 255, 255);
+        top: 70px;
+        margin-left: -550px;
+    }
+    .img1 img{
+        width: 160vh;
+        height: 230vh;
+    }
+    .img2 img{
+        width: 160vh;
+        height: 230vh;
+    }
+    .btn2{
+        padding: 30px;  
+        border-radius: 100px;
+        font-size: 40px;
+    }
+    #love{
+        position: absolute;
+        top: 30px;
+        font-size: 60px;
+        right: 145vh;
+        padding: 6px;
+        border-radius: 40px;
+        border: 1px solid black;
+    
+    }
+    .text-area{
+        font-size: 40px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .review{
+        position: absolute;
+        margin-left: 110vh;
+        margin-top: -200px;
+        font-size: 40px;
+     }
+     .review h3{
+        margin-left: 170px;
+     }
+     .text-area img{
+        width: 220px;
+        height: 140px;
+     }
+     .section3{
+        width: 220vh;
+        height: 1100vh;
+        display: flex;
+    }
+    .all-inone{
+        display: inline;
+        margin-left: 110vh;
+    }
+    .section4{
+        width: 220vh;
+        height: 80vh;
+        background:url(img/images.jpg);
+        background-size:220vh 400px;
+    }
+    .lonching-time p{
+        font-size: 40px;
+    }
+    span{
+        font-size: 30px;
+    }
+    .section5{
+        width: 220vh;
+        height: 1000vh;
+
+    }
+    .browser h1{
+        font-size: 100px;
+        margin-top: 50px;
+    }
+    .browser p{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .main-product{
+        display: inline;
+    }
+    .product{
+        width: 160vh;
+        height: 230vh;
+        background-color: blue;
+        margin-left: 190px;
+        margin-top: 50px;
+    }
+    .product img{
+        width: 160vh;
+        height: 230vh;
+    }
+    .women{
+        width: 160vh;
+        height: 140px;
+        margin-top: -170px;
+    }
+    .women h3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .women a{
+        font-size: 30px;
+        margin-left: 77vh;
+    }
+    .section6{
+        width: 220vh;
+        height: 120vh;
+    }
+    .order-now{
+        display: inline;
+    }
+    .order{
+        margin-left: 340px;
+        margin-top: 80px;
+    }
+    .order h2{
+        font-size: 60px;
+    }
+    .order p{
+        font-size: 30px;
+        margin-top: 30px;
+        
+    }
+    #gift{
+        margin-left: -140px;
+        font-size: 80px;
+    }
+    .section7{
+        width: 220vh;
+        height: 1000vh;
+    }
+    .all-customar-review{
+        display: inline;
+        margin-top: 70px;
+    }
+    .top{
+        
+        font-size: 50px;
+        color: #000;
+    }
+    .bold img{
+        width: 400px;
+        height: 480px;
+    }
+    del{
+        text-decoration-line: line-through;
+        margin-top: 10px;
+        font-size: 60px;
+    }
+    .discount{
+        margin-left: 30px;
+        font-size: 60px;
+    }
+    
+    #holud{
+        margin-top: 30px;
+        color: gold;
+    }
+     
+    .man{
+        width: 160vh;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 30px;
+        margin-left: 30px;
+        border-bottom: 2px solid black;
+    }
+    .all-man{
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .section8{
+        width: 220vh;
+        height: 350vh;
+        display: grid;
+        background-color: #f8f9fa;
+    }
+    .nav-puter{
+        display: inline;
+        
+    }
+    .futer{
+         font-size: 40px;
+    }
+    .now{
+        margin-top: 70px;
+        padding: 20px;
+        width: 300px;
+        font-size: 30px;
+    }
+    .lost-nav{
+        margin-left: 70px;
+    }
+    .lost-nav p{
+        font-size: 50px;
+        color: rgb(47, 14, 239);
+    }
+    .lost-nav a{
+        font-size: 40px;
+    }
+    .copy-right{
+        width: 220vh;
+        height: 40vh;
+    }
+    .copy-right p{
+        font-size: 50px;
+    }
+
+}
+
+ 
+/*https://inspirothemes.com/polo/home-shop.html#
